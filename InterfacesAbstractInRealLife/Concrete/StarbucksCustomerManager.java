@@ -12,7 +12,7 @@ public class StarbucksCustomerManager extends BaseCustomerManager{
     public StarbucksCustomerManager(ICustomerCheckService _icustomercheckservice) {
         this._icustomercheckservice = _icustomercheckservice; 
     }
-
+s
     @Override
 	public void Save(Customer customer) { 
         if(_icustomercheckservice.CheckIfRealPerson(customer)){
