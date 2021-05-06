@@ -6,6 +6,5 @@ public class main {
         CustomerManager cm=new CustomerManager();
         cm.dataBaseManager=new OracleDataBaseManager();
         cm.getCustomers();
-
     }
 }
