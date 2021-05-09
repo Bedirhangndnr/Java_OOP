@@ -16,16 +16,24 @@ public class Product {
 	@Id
 	/*ve veri tabanlarında id alanları bazen manuel bazen manuel bazen otomatik(bu durumda öyle +1+1) olarak artabilir. dolayısıyla bu id'nin nasıl üretildiğini de belirtmeliyiz. */
 	@GeneratedValue
+	
 	@Column(name="product_id") /**veri tabanında hangi alana karşılık geliyor?*/
 	private int id;
-	@Column(name="category_id")
+	public Product() {
+	}
+	@Column
+	(name="category_id")
 	private int categoryId;
-	@Column(name="product_name")
+	@Column
+	(name="product_name")
 	private String productName;
-	@Column(name="unit_price")
+	@Column
+	(name="unit_price")
 	private double unitPrice;
-	@Column(name="unit_in_stock")
-	private short unitInStock;
-	@Column(name="quantify_per_unit")
+	@Column
+	(name="units_in_stock")
+	private short unitsInStock;
+	@Column
+	(name="quantify_per_unit")
 	private  String quantifyPerUnit;
 }
