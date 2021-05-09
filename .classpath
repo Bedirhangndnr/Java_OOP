@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="northwind/.mvn/wrapper/|northwind/src/main/java/|northwind/src/test/java/|nLayeredDemo/src/|week6/src/" kind="src" path=""/>
+	<classpathentry kind="src" path="nLayeredDemo/src"/>
+	<classpathentry kind="src" path="northwind/.mvn/wrapper"/>
+	<classpathentry kind="src" path="northwind/src/main/java"/>
+	<classpathentry kind="src" path="northwind/src/test/java"/>
+	<classpathentry kind="src" path="week6/src"/>
+	<classpathentry kind="output" path="nLayeredDemo/bin"/>
+</classpath>
