@@ -12,7 +12,7 @@ import kodlamaio.northwind.entities.concretes.Product;
 /* Note: Product"S" taki "s" api isimlendirme kuralidiri 
  * api isimlendirmelerinin sununa eklenir.*/
 
-@RestController /*sen bir controlsun!*/
+@RestController /*sen bir rest controlsun, yani android de ios ta sana iletişimde bulunabilir.!*/
 @RequestMapping("/api/products") /*1 den fazla kontroller olabilir. 
 Siparis icin, sepet icin, kayit icin... gibi. Yani /api... seklinde bir 
 istek gelirse, bu controller saglayaacak. bu kadar.*/
