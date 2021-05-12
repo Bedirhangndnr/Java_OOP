@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{0C603C2C-620A-423B-A800-4F3E2F6281F1}") = "Banka", "Banka.usqldbproj", "{31563F05-65A2-4DEC-BC94-E06151C863E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31563F05-65A2-4DEC-BC94-E06151C863E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31563F05-65A2-4DEC-BC94-E06151C863E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31563F05-65A2-4DEC-BC94-E06151C863E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31563F05-65A2-4DEC-BC94-E06151C863E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC9C8F8E-FC30-4FB9-98C5-8A5E6EE184DB}
+	EndGlobalSection
+EndGlobal
