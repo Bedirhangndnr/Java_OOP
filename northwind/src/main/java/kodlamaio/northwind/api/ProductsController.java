@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import kodlamaio.northwind.business.abstracts.ProductService;
 import kodlamaio.northwind.entities.concretes.Product;
-
+/**dış dünya ile entegrasyon. Masaüstüweb, oyunda iletişimi kuracak ortak dili yazacaz*/
 /* Note: Product"S" taki "s" api isimlendirme kuralidiri 
  * api isimlendirmelerinin sununa eklenir.*/
 

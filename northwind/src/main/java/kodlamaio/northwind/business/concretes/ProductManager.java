@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import kodlamaio.northwind.business.abstracts.ProductService;
 import kodlamaio.northwind.dataAccess.abstracts.ProductDao;
 import kodlamaio.northwind.entities.concretes.Product;
-
+/* burada iş kuralları yazılır. (şartlar) */
 @Service /*bu class service gorevi gorecek */
 public class ProductManager implements ProductService{
 	private ProductDao productDao;
